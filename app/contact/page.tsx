@@ -97,19 +97,19 @@ export default function ContactPage() {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: ["+91 9812193122", "+91 9313730912"]
+      details: ["+91 9812193122", "+91 9313730912", "+1 5513581762"]
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      details: ["lorumipsum", "loreumipsum"]
+      details: ["info@qastemcell.center",]
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Address", 
       details: [
-        "First Floor, 583 B, Sushant Lok Phase I,",
-        "Sector 43, Gurugram, Haryana 122002",
+        "HN 821, Sector 47, Gurugram, Haryana,",
+        "India PIN 122018",
         "20 River Ct, Apt 805,",
         "Jersey City, New Jersey-07310, USA"
       ]
@@ -156,7 +156,7 @@ export default function ContactPage() {
           
           <div className="relative h-[300px] rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0127906255073!2d77.2090757!3d28.5272067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDMxJzM3LjkiTiA3N8KwMTInMzIuNyJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.644998375308!2d77.04471869999999!3d28.429966900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1870a6e80d87%3A0x7338fa3221bb0004!2s821%2C%20Sector%2047%2C%20Gurugram%2C%20Haryana%20122018!5e0!3m2!1sen!2sin!4v1744963057171!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

@@ -13,8 +13,10 @@ const StemCellClinic: React.FC = () => {
 
           <p className="mb-4">
             Have you considered <strong>stem cell therapy in Gurugram and Rishikesh, India</strong> but haven’t found the top reputable center?
-            Well, QA Stem Cell Center is now available in both cities! The USA leader now offers the
-            <strong> most effective, safest treatment</strong> with our Stem Cell Therapy in India.
+            Well, QA Stem Cell Center is now available in both locations to provide you with the best stem cell therapy and treatment.
+
+            Our clinics are equipped with the latest technology and staffed by a team of experienced professionals dedicated to providing you with the highest quality care.
+            We understand that every patient is unique, and we take the time to develop a personalized treatment plan that meets your specific needs.
           </p>
 
         

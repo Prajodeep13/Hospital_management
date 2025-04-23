@@ -49,7 +49,7 @@ const StemCellTreatmentProcess: React.FC = () => {
 
             <p className="flex items-start">
               <FaAngleRight className="text-red-500 mr-2 mt-1" />
-              <span><strong>Treatment Administration:</strong> The stem cell treatment is administered by our New Delhi doctors via various delivery methods.</span>
+              <span><strong>Treatment Administration:</strong> The stem cell treatment is administered by our Gurugram and Rishikesh doctors via various delivery methods.</span>
             </p>
 
             <p className="mt-6 text-gray-600">

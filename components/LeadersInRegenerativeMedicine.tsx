@@ -17,7 +17,7 @@ const LeadersInRegenerativeMedicine: React.FC = () => {
           </p>
 
           <p className="mb-4 text-gray-300">
-            Our New Delhi center, equipped with the latest technology and staffed by expert physicians,
+            Our Gurugram and Rishikesh center, equipped with the latest technology and staffed by expert physicians,
             follows international safety and ethical standards.
           </p>
 
@@ -31,11 +31,7 @@ const LeadersInRegenerativeMedicine: React.FC = () => {
           </p>
 
           <p className="mt-6 font-semibold text-cyan-100">Facilities And Team</p>
-          <p className="text-gray-300">
-            Our New Delhi clinic offers an ideal environment for stem cell, exosome and PRP therapy, with advanced labs
-            and treatment rooms designed for safety and effectiveness. Our experienced team of physicians and researchers
-            stays current with advancements to optimize patient outcomes.
-          </p>
+        
         </div>
 
         {/* Right Side Image */}

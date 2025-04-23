@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'OA Stem Cell Center ',
+  title: 'QA Stem Cell Center ',
   description: 'Leading the way in stem cell innovation with cutting-edge telemedicine solutions.',
 };
 

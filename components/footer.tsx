@@ -42,8 +42,9 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
                 <div>
-                  <p>First Floor, 583 B, Sushant Lok Phase I,</p>
-                  <p>Sector 43, Gurugram, Haryana 122002</p>
+                  <p>HN 821, Sector 47, Gurugram,</p>
+                  <p>Haryana, India PIN 122018</p>
+                  <p className="mt-2">Hotel Yuvraj, Near Forest Chauki, Laxman Jhula , Pauri Ghadwal, Rishikesh , Uttarakhand : 249302</p>
                   <p className="mt-2">20 River Ct, Apt 805,</p>
                   <p>Jersey City, New Jersey-07310, USA</p>
                 </div>
@@ -57,14 +58,22 @@ export function Footer() {
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 <a href="tel:+919313730912" className="hover:text-white transition-colors">
-                  +91 9313730912
+                 +91 6383388673
                 </a>
+                
               </li>
               <li className="flex items-center gap-2">
-                {/* <Mail className="h-4 w-4 flex-shrink-0" /> */}
-                {/* <a href="mailto:info@oavirtualhealthcare.com" className="hover:text-white transition-colors">
-                  info@qastemcell.center
-                </a> */}
+                <Phone className="h-4 w-4 flex-shrink-0" />
+                <a href="tel:+919313730912" className="hover:text-white transition-colors">
+                +1 5513581762
+                </a>
+                
+              </li>
+              <li className="flex items-center gap-2">
+                <Mail className="h-4 w-4 flex-shrink-0" />
+                <a href="mailto:info@oavirtualhealthcare.com" className="hover:text-white transition-colors">
+                info@qastemcell.center
+                </a>
               </li>
             </ul>
           </div>

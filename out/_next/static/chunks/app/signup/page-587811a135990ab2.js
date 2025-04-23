@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[966],{5082:function(e,t,n){Promise.resolve().then(n.bind(n,5455))},5455:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return s}});var r=n(7437),o=n(4033),u=n(2265);function s(){let[e,t]=(0,u.useState)(""),[n,s]=(0,u.useState)(""),a=(0,o.useRouter)(),i=async t=>{t.preventDefault();let r=await fetch("/api/signup",{method:"POST",body:JSON.stringify({email:e,password:n}),headers:{"Content-Type":"application/json"}});r.ok?a.push("/login"):alert("Signup failed")};return(0,r.jsxs)("form",{onSubmit:i,className:"p-6",children:[(0,r.jsx)("input",{type:"email",value:e,onChange:e=>t(e.target.value),placeholder:"Email"}),(0,r.jsx)("input",{type:"password",value:n,onChange:e=>s(e.target.value),placeholder:"Password"}),(0,r.jsx)("button",{type:"submit",children:"Signup"})]})}},622:function(e,t,n){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var r=n(2265),o=Symbol.for("react.element"),u=Symbol.for("react.fragment"),s=Object.prototype.hasOwnProperty,a=r.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,i={key:!0,ref:!0,__self:!0,__source:!0};function l(e,t,n){var r,u={},l=null,p=null;for(r in void 0!==n&&(l=""+n),void 0!==t.key&&(l=""+t.key),void 0!==t.ref&&(p=t.ref),t)s.call(t,r)&&!i.hasOwnProperty(r)&&(u[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps)void 0===u[r]&&(u[r]=t[r]);return{$$typeof:o,type:e,key:l,ref:p,props:u,_owner:a.current}}t.Fragment=u,t.jsx=l,t.jsxs=l},7437:function(e,t,n){"use strict";e.exports=n(622)},4033:function(e,t,n){e.exports=n(290)}},function(e){e.O(0,[971,864,744],function(){return e(e.s=5082)}),_N_E=e.O()}]);

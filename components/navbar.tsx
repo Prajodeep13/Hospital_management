@@ -77,7 +77,7 @@ export function Navbar() {
         </Link>
 
         {/* Desktop Menu */}
-        {/* <div className="hidden lg:flex items-center space-x-6 text-sm font-semibold text-black">
+        <div className="hidden lg:flex items-center space-x-6 text-sm font-semibold text-black">
           {Object.entries(menuItems).map(([title, items]) => (
             <DropdownMenu key={title}>
               <DropdownMenuTrigger className="flex items-center gap-1 hover:text-cyan-500">
@@ -92,7 +92,7 @@ export function Navbar() {
               </DropdownMenuContent>
             </DropdownMenu>
           ))}
-        </div> */}
+        </div>
 
         {/* Call Me Back Desktop */}
         <div className="hidden lg:flex">
@@ -102,13 +102,13 @@ export function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        {/* <button className="lg:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <button className="lg:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button> */}
+        </button>
       </nav>
 
       {/* Mobile Menu with Scroll */}
-      {/* {isMenuOpen && (
+      {isMenuOpen && (
         <div className="lg:hidden bg-white max-h-[calc(100vh-4rem)] overflow-y-auto px-4 pb-6 pt-4 border-t text-sm font-medium text-black">
           {Object.entries(menuItems).map(([title, items]) => (
             <div key={title} className="mb-6">
@@ -131,7 +131,7 @@ export function Navbar() {
             CALL ME BACK
           </Button>
         </div>
-      )} */}
+      )}
     </header>
   )
 }
