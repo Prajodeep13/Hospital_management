@@ -13,51 +13,53 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { useRouter } from "next/navigation"
 
+
+
 const menuItems = {
   Conditions: [
-    { name: "Autism Treatment", href: "/conditions#autism" },
-    { name: "Multiple sclerosis", href: "/conditions#ms" },
-    { name: "Amyotrophic Lateral Sclerosis (ALS)", href: "/conditions#als" },
-    { name: "Parkinson Disease", href: "/conditions#parkinson" },
-    { name: "Arthritis / Arthrosis / Osteochondrosis", href: "/conditions#arthritis" },
-    { name: "Anti-Aging and Wellbeing", href: "/conditions#anti-aging" },
-    { name: "Diabetes Type 2", href: "/conditions#diabetes" },
-    { name: "Liver Cirrhosis And Stem Cell Treatment", href: "/conditions#liver" },
+     { name: 'Autism Treatment', href: '/conditions/autism' },
+  { name: 'Multiple Sclerosis', href: '/conditions/multiple-sclerosis' },
+  { name: 'Amyotrophic Lateral Sclerosis (ALS)', href: '/conditions/als' },
+  { name: "Parkinson's Disease", href: '/conditions/parkinsons' },
+  { name: 'Arthritis / Arthrosis / Osteochondrosis', href: '/conditions/arthritis' },
+  { name: 'Anti-Aging and Wellbeing', href: '/conditions/anti-aging' },
+  { name: 'Diabetes Type 2', href: '/conditions/diabetes' },
+  { name: 'Liver Cirrhosis', href: '/conditions/liver-cirrhosis' },
   ],
-  Therapies: [
-    { name: "Stem Cells & Regenerative Medicine", href: "/therapies#regenerative" },
-    { name: "Stem Cell Therapy Cost", href: "/therapies#cost" },
-    { name: "Stem Cell Delivery Methods", href: "/therapies#delivery" },
-    { name: "Safety & Adverse Effects", href: "/therapies#safety" },
-    { name: "Boosting Stem Cell Therapy", href: "/therapies#boosting" },
-    { name: "IMR & Drug Therapies", href: "/therapies#imr" },
-    { name: "Medical Devices Therapies", href: "/therapies#devices" },
-    { name: "Additional Procedures", href: "/therapies#procedures" },
-  ],
-  "Our stem cells": [
-    { name: "Stem Cells Used in Therapy", href: "/stem-cells#used" },
-    { name: "Our Lab", href: "/stem-cells#lab" },
-    { name: "Production of Stem Cells", href: "/stem-cells#production" },
-    { name: "Cell Products Catalog", href: "/stem-cells#catalog" },
-  ],
-  "Treatment Program": [
-    { name: "Application Process", href: "/programs#application" },
-    { name: "Stem Cell Therapy Step by Step", href: "/programs#step-by-step" },
-    { name: "Client Care & Travel Support", href: "/programs#support" },
-    { name: "VIP treatment", href: "/programs#vip" },
-  ],
-  "About Us": [
-    { name: "About QA Stem Cell", href: "/about#company" },
-    { name: "Contact Us", href: "/about#contact" },
-    { name: "Locations", href: "/about#locations" },
-    { name: "Our Team", href: "/about#team" },
-    { name: "Partnership programs", href: "/about#partnership" },
-    { name: "About Serbia", href: "/about#serbia" },
-  ],
-  FAQ: [
-    { name: "Treatment FAQ", href: "/faq#treatment" },
-    { name: "Travel & Stay", href: "/faq#travel" },
-  ],
+  
+  // Therapies: [
+  //   { name: "Stem Cells & Regenerative Medicine", href: "/therapies#regenerative" },
+  //   { name: "Stem Cell Therapy Cost", href: "/therapies#cost" },
+  //   { name: "Stem Cell Delivery Methods", href: "/therapies#delivery" },
+  //   { name: "Safety & Adverse Effects", href: "/therapies#safety" },
+  //   { name: "Boosting Stem Cell Therapy", href: "/therapies#boosting" },
+  //   { name: "IMR & Drug Therapies", href: "/therapies#imr" },
+  //   { name: "Medical Devices Therapies", href: "/therapies#devices" },
+  //   { name: "Additional Procedures", href: "/therapies#procedures" },
+  // ],
+  // "Our stem cells": [
+  //   { name: "Stem Cells Used in Therapy", href: "/stem-cells#used" },
+  //   { name: "Our Lab", href: "/stem-cells#lab" },
+  //   { name: "Production of Stem Cells", href: "/stem-cells#production" },
+  //   { name: "Cell Products Catalog", href: "/stem-cells#catalog" },
+  // ],
+  // "Treatment Program": [
+  //   { name: "Application Process", href: "/programs#application" },
+  //   { name: "Stem Cell Therapy Step by Step", href: "/programs#step-by-step" },
+  //   { name: "Client Care & Travel Support", href: "/programs#support" },
+  //   { name: "VIP treatment", href: "/programs#vip" },
+  // ],
+"About Us": [
+  // { name: "About QA Stem Cell", href: "/aboutus?section=about" },
+  // { name: "Contact Us", href: "/aboutus?section=contact" },
+  { name: "Our Team", href: "/aboutus?section=team" },
+  // { name: "Partnership Programs", href: "/aboutus?section=partnership" },
+],
+
+  // FAQ: [
+  //   { name: "Treatment FAQ", href: "/faq#treatment" },
+  //   { name: "Travel & Stay", href: "/faq#travel" },
+  // ],
 }
 
 export function Navbar() {

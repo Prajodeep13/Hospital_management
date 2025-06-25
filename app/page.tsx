@@ -140,11 +140,11 @@ export default function Home() {
 
 
 
-   <StemCellClinic/>
-   <WhatIsStemCellTherapy/>
-   <ResearchAreas/>
-  <HolisticDiseases/>
-   <HowStemCellTherapyWorks/>
+    <StemCellClinic/>
+    <WhatIsStemCellTherapy/>
+    <ResearchAreas/>
+    <HolisticDiseases/>
+    <HowStemCellTherapyWorks/>
     <TypesOfStemCellsUsed/>
     <LeadersInRegenerativeMedicine/>
     <ConditionsTreated/>

@@ -97,7 +97,7 @@ export default function ContactPage() {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: ["+91 9812193122", "+91 9313730912", "+1 5513581762"]
+      details: ["+91 9812193122", "+91 6383388673", "+1 5513581762"]
     },
     {
       icon: <Mail className="h-6 w-6" />,
