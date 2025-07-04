@@ -27,16 +27,16 @@ const menuItems = {
   { name: 'Liver Cirrhosis', href: '/conditions/liver-cirrhosis' },
   ],
   
-  // Therapies: [
-  //   { name: "Stem Cells & Regenerative Medicine", href: "/therapies#regenerative" },
-  //   { name: "Stem Cell Therapy Cost", href: "/therapies#cost" },
-  //   { name: "Stem Cell Delivery Methods", href: "/therapies#delivery" },
-  //   { name: "Safety & Adverse Effects", href: "/therapies#safety" },
-  //   { name: "Boosting Stem Cell Therapy", href: "/therapies#boosting" },
-  //   { name: "IMR & Drug Therapies", href: "/therapies#imr" },
-  //   { name: "Medical Devices Therapies", href: "/therapies#devices" },
-  //   { name: "Additional Procedures", href: "/therapies#procedures" },
-  // ],
+   Therapies: [
+     { name: "Stem Cells & Regenerative Medicine", href: "/Therapies/regenerative" },
+     { name: "Stem Cell Therapy Cost", href: "/Therapies/cost" },
+     { name: "Stem Cell Delivery Methods", href: "/Therapies/delivery" },
+     { name: "Safety & Adverse Effects", href: "/therapies/safety" },
+     { name: "Boosting Stem Cell Therapy", href: "/Therapies/boosting" },
+     { name: "IMR & Drug Therapies", href: "/Therapies/imr" },
+     { name: "Medical Devices Therapies", href: "/Therapies/devices" },
+     { name: "Additional Procedures", href: "/Therapies/procedures" },
+   ],
   // "Our stem cells": [
   //   { name: "Stem Cells Used in Therapy", href: "/stem-cells#used" },
   //   { name: "Our Lab", href: "/stem-cells#lab" },
