@@ -101,14 +101,14 @@ export default function BoostingPage() {
           </div>
         </div>
 
-        <div className="container mx-auto px-4 sm:px-6 py-8 max-w-6xl">
+        <div className="container mx-auto px-8 sm:px-10 py-8 max-w-6xl">
           {/* Overview Section */}
           <section className="py-8 sm:py-12">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
               Overview – Boosting Stem Cell Therapy
             </h2>
             <div className="prose max-w-none text-gray-700">
-              <p className="mb-3 sm:mb-4">
+              <p className="text-base md:text-lg mb-3 sm:mb-4">
                 In the vast world of modern medicine, few innovations have
                 stirred as much excitement and possibility as stem cell therapy.
                 It’s more than just a buzzword—it’s a lifeline for many people
@@ -129,7 +129,7 @@ export default function BoostingPage() {
                 The Challenge: Why Doesn’t Stem Cell Therapy Always Work?
               </h2>
               <div className="prose max-w-none text-gray-700">
-                <p className="mb-3 sm:mb-4">
+                <p className="text-base md:text-lg mb-3 sm:mb-4">
                   Despite the buzz, stem cell therapy isn’t magic. Patients and
                   researchers alike sometimes face disappointing outcomes. Here
                   are a few reasons why
@@ -141,7 +141,7 @@ export default function BoostingPage() {
                 {items.map((item, index) => (
                   <div
                     key={index}
-                    className="bg-[#F3FEFB] rounded-md border border-[#D7F3EC] px-6 py-6"
+                    className="bg-[#F3FEFB] rounded-2xl border border-[#D7F3EC] px-6 py-6 shadow-sm shadow-gray-300"
                   >
                     <p className={`text-[18px] font-semibold ${item.color}`}>
                       {item.title}:
@@ -152,7 +152,7 @@ export default function BoostingPage() {
                     </p>
                   </div>
                 ))}
-                <p className="text-sm text-gray-600 pt-4">
+                <p className="text-sm md:text-base text-gray-600 pt-4">
                   That’s where boosting strategies come in—to enhance cell
                   survival, effectiveness, and integration, turning potential
                   into real-world results.
@@ -161,16 +161,16 @@ export default function BoostingPage() {
             </div>
           </section>
 
-          <section className="py-8 sm:py-12">
+          <section className="py-8 sm:py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white px-6 py-12 flex justify-center">
               <div className="max-w-5xl w-full">
                 {/* Heading */}
-                <h2 className="text-[20px] md:text-[22px] font-bold text-black mb-3">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
                   Strategy #1: Preconditioning the Stem Cells
                 </h2>
 
                 {/* Paragraph */}
-                <p className="text-[15px] text-gray-800 mb-6 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-800 mb-6 leading-relaxed">
                   Imagine sending a soldier into battle without training—it’s
                   the same with stem cells. If they’re not prepared for the
                   environment they’re being transplanted into, they’re unlikely
@@ -219,17 +219,17 @@ export default function BoostingPage() {
             </div>
           </section>
 
-          <section className="py-8 sm:py-12">
+          <section className="py-8 sm:py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white px-6 py-12 flex justify-center">
-              <div className="max-w-4xl w-full">
+              <div className="max-w-5xl w-full">
                 {/* Heading */}
-                <h2 className="text-[22px] font-bold text-black mb-3">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
                   Strategy #2: Genetic Modification – Smarter Cells for Smarter
                   Healing
                 </h2>
 
                 {/* Subtext */}
-                <p className="text-[15px] text-gray-800 mb-6 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-800 mb-6 leading-relaxed">
                   One of the most exciting fields in biotechnology is the
                   genetic engineering of stem cells. By tweaking their DNA,
                   scientists can create supercharged cells that are more robust,
@@ -258,269 +258,279 @@ export default function BoostingPage() {
               </div>
             </div>
           </section>
-          <section className="py-8 sm:py-12">
-            <div className="bg-white px-6 md:px-20 py-10 text-gray-900 font-sans">
-              {/* Heading */}
-              <h2 className="text-xl md:text-2xl font-bold mb-4">
-                Strategy #3: Exosomes – The Silent Messengers
-              </h2>
+          <section className="py-8 sm:py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-white px-6 py-12 flex justify-center">
+              <div className="max-w-5xl w-full">
+                {/* Heading */}
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+                  Strategy #3: Exosomes – The Silent Messengers
+                </h2>
 
-              {/* Description */}
-              <p className="text-sm md:text-base text-gray-700 max-w-4xl leading-relaxed mb-8">
-                In recent years, researchers have realized something
-                fascinating: stem cells don’t always need to become new tissue
-                to help. Sometimes, the signals they send are just as powerful.{" "}
-                <br />
-                Enter exosomes—tiny packets of proteins, RNA, and other
-                molecules released by stem cells. These microscopic messengers
-                travel to other cells and stimulate healing, reduce
-                inflammation, and encourage regeneration.
-              </p>
+                {/* Description */}
+                <p className="text-base md:text-lg text-gray-700 max-w-4xl leading-relaxed mb-8">
+                  In recent years, researchers have realized something
+                  fascinating: stem cells don’t always need to become new tissue
+                  to help. Sometimes, the signals they send are just as
+                  powerful. <br />
+                  Enter exosomes—tiny packets of proteins, RNA, and other
+                  molecules released by stem cells. These microscopic messengers
+                  travel to other cells and stimulate healing, reduce
+                  inflammation, and encourage regeneration.
+                </p>
 
-              {/* Benefit Intro */}
-              <p className="text-sm md:text-base text-gray-800 mb-6">
-                <strong>Using exosomes as a therapy</strong> (often called
-                "cell-free therapy") has several benefits:
-              </p>
+                {/* Benefit Intro */}
+                <p className="text-base md:text-lg text-gray-800 mb-6">
+                  <strong>Using exosomes as a therapy</strong> (often called
+                  "cell-free therapy") has several benefits:
+                </p>
 
-              {/* Icon Grid */}
-              <div className="border-t border-gray-300 pt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                {/* Benefit 1 */}
-                <div className="flex flex-col items-center">
-                  <Hexagon className="w-10 h-10 text-teal-600 mb-4" />
-                  <p className="text-sm font-medium text-gray-800">
-                    No risk of uncontrolled
-                    <br />
-                    cell growth
-                  </p>
-                </div>
-
-                {/* Benefit 2 */}
-                <div className="flex flex-col items-center">
-                  <Truck className="w-10 h-10 text-teal-600 mb-4" />
-                  <p className="text-sm font-medium text-gray-800">
-                    Easier to store and
-                    <br />
-                    transport.
-                  </p>
-                </div>
-
-                {/* Benefit 3 */}
-                <div className="flex flex-col items-center">
-                  <ShieldCheck className="w-10 h-10 text-teal-600 mb-4" />
-                  <p className="text-sm font-medium text-gray-800">
-                    Lower immune
-                    <br />
-                    rejection risk.
-                  </p>
-                </div>
-              </div>
-
-              {/* Final Note */}
-              <p className="text-sm md:text-base text-gray-700 mt-10 max-w-4xl leading-relaxed">
-                Boosting stem cell therapy with exosomes can offer safer, more
-                salable solutions—especially in conditions like osteoarthritis,
-                neurodegeneration, or even skin rejuvenation.
-              </p>
-            </div>
-          </section>
-
-          <section className="py-8 sm:py-12">
-            <div className="bg-white px-6 md:px-20 py-10 text-gray-900 font-sans">
-              {/* Heading */}
-              <h2 className="text-xl md:text-2xl font-bold mb-4">
-                Strategy #4: Biomaterials and 3D Scaffolds
-              </h2>
-
-              {/* Description */}
-              <p className="text-sm md:text-base text-gray-700 max-w-4xl leading-relaxed mb-4">
-                Imagine trying to plant seeds in thin air. Without soil,
-                nutrients, or structure, they won’t grow. Similarly,
-                transplanted stem cells need a supportive environment to thrive.
-              </p>
-              <p className="text-sm md:text-base text-gray-700 max-w-4xl leading-relaxed mb-6">
-                This is where biomaterials and 3D scaffolds come in—engineered
-                materials that mimic the natural tissue environment. These can:
-              </p>
-
-              {/* Card Grid */}
-              <div className="grid md:grid-cols-2 gap-6">
-                {/* Card 1 */}
-                <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-center gap-4">
-                  <MoveHorizontal className="w-8 h-8 text-teal-600" />
-                  <p className="text-sm md:text-base font-semibold text-gray-800">
-                    Anchor stem cells in place.
-                  </p>
-                </div>
-
-                {/* Card 2 */}
-                <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-center gap-4">
-                  <ShieldPlus className="w-8 h-8 text-teal-600" />
-                  <p className="text-sm md:text-base font-semibold text-gray-800">
-                    Protect them from the immune system.
-                  </p>
-                </div>
-
-                {/* Card 3 */}
-                <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-center gap-4 md:col-span-2 md:w-2/3">
-                  <Pill className="w-8 h-8 text-teal-600" />
-                  <p className="text-sm md:text-base font-semibold text-gray-800">
-                    Release growth factors slowly to support healing
-                  </p>
-                </div>
-              </div>
-
-              {/* Footer Text */}
-              <p className="text-sm md:text-base text-gray-700 mt-10 max-w-4xl leading-relaxed">
-                Hydrogels, collagen scaffolds, and biodegradable polymers are
-                already showing success in applications like bone regeneration
-                and cartilage repair. They’re essentially “nurseries” for new
-                tissue to grow.
-              </p>
-            </div>
-          </section>
-          <section className="py-8 sm:py-12">
-            <div className="bg-white px-6 md:px-20 py-10 text-gray-900 font-sans">
-              {/* Heading */}
-              <h2 className="text-xl md:text-2xl font-bold mb-4">
-                Strategy #5: Combining Stem Cell Therapy with Other Treatments
-              </h2>
-
-              {/* Description */}
-              <p className="text-sm md:text-base text-gray-700 max-w-4xl leading-relaxed mb-6">
-                Why stop at stem cells? Pairing stem cell therapy with other
-                medical treatments often leads to synergistic results.
-              </p>
-
-              <p className="text-sm md:text-base font-medium text-gray-800 mb-6">
-                Some combinations include:
-              </p>
-
-              {/* Card Grid */}
-              <div className="grid md:grid-cols-2 gap-6">
-                {/* Card 1 */}
-                <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-start gap-4">
-                  <Dumbbell className="w-8 h-8 text-teal-600 mt-1" />
-                  <div>
-                    <p className="text-sm md:text-base font-semibold text-gray-900 mb-1">
-                      Stem Cells + Physical Therapy
+                {/* Icon Grid */}
+                <div className="border-t border-gray-300 pt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                  {/* Benefit 1 */}
+                  <div className="flex flex-col items-center">
+                    <Hexagon className="w-10 h-10 text-teal-600 mb-4" />
+                    <p className="text-sm font-medium text-gray-800">
+                      No risk of uncontrolled
+                      <br />
+                      cell growth
                     </p>
-                    <p className="text-sm text-gray-700">
-                      Especially helpful in neurological and musculoskeletal
-                      conditions.
+                  </div>
+
+                  {/* Benefit 2 */}
+                  <div className="flex flex-col items-center">
+                    <Truck className="w-10 h-10 text-teal-600 mb-4" />
+                    <p className="text-sm font-medium text-gray-800">
+                      Easier to store and
+                      <br />
+                      transport.
+                    </p>
+                  </div>
+
+                  {/* Benefit 3 */}
+                  <div className="flex flex-col items-center">
+                    <ShieldCheck className="w-10 h-10 text-teal-600 mb-4" />
+                    <p className="text-sm font-medium text-gray-800">
+                      Lower immune
+                      <br />
+                      rejection risk.
                     </p>
                   </div>
                 </div>
 
-                {/* Card 2 */}
-                <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-start gap-4">
-                  <Droplets className="w-8 h-8 text-teal-600 mt-1" />
-                  <div>
-                    <p className="text-sm md:text-base font-semibold text-gray-900 mb-1">
-                      Stem Cells + PRP (Platelet-Rich Plasma)
-                    </p>
-                    <p className="text-sm text-gray-700">
-                      PRP enhances healing signals and helps stem cells work
-                      more effectively.
-                    </p>
-                  </div>
-                </div>
-
-                {/* Card 3 */}
-                <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-start gap-4 md:col-span-2 md:w-2/3">
-                  <Users className="w-8 h-8 text-teal-600 mt-1" />
-                  <div>
-                    <p className="text-sm md:text-base font-semibold text-gray-900 mb-1">
-                      Stem Cells + Immune Modulation
-                    </p>
-                    <p className="text-sm text-gray-700">
-                      In autoimmune conditions, modulating the immune system
-                      allows stem cells to work without attack.
-                    </p>
-                  </div>
-                </div>
+                {/* Final Note */}
+                <p className="text-sm md:text-base text-gray-700 mt-10 max-w-4xl leading-relaxed">
+                  Boosting stem cell therapy with exosomes can offer safer, more
+                  salable solutions—especially in conditions like
+                  osteoarthritis, neurodegeneration, or even skin rejuvenation.
+                </p>
               </div>
+            </div>
+          </section>
 
-              {/* Footer Text */}
-              <p className="text-sm md:text-base text-gray-700 mt-10 max-w-4xl leading-relaxed">
-                This integrated approach doesn’t just boost effectiveness—it
-                personalizes treatment for better outcomes.
-              </p>
+          <section className="py-8 sm:py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-white px-6 py-12 flex justify-center">
+              <div className="max-w-5xl w-full">
+                {/* Heading */}
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+                  Strategy #4: Biomaterials and 3D Scaffolds
+                </h2>
+
+                {/* Description */}
+                <p className="text-base md:text-lg text-gray-700 max-w-4xl leading-relaxed mb-4">
+                  Imagine trying to plant seeds in thin air. Without soil,
+                  nutrients, or structure, they won’t grow. Similarly,
+                  transplanted stem cells need a supportive environment to
+                  thrive.
+                </p>
+                <p className="text-base md:text-lg text-gray-700 max-w-4xl leading-relaxed mb-6">
+                  This is where biomaterials and 3D scaffolds come in—engineered
+                  materials that mimic the natural tissue environment. These
+                  can:
+                </p>
+
+                {/* Card Grid */}
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* Card 1 */}
+                  <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-center gap-4">
+                    <MoveHorizontal className="w-8 h-8 text-teal-600" />
+                    <p className="text-sm md:text-base font-semibold text-gray-800">
+                      Anchor stem cells in place.
+                    </p>
+                  </div>
+
+                  {/* Card 2 */}
+                  <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-center gap-4">
+                    <ShieldPlus className="w-8 h-8 text-teal-600" />
+                    <p className="text-sm md:text-base font-semibold text-gray-800">
+                      Protect them from the immune system.
+                    </p>
+                  </div>
+
+                  {/* Card 3 */}
+                  <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-center gap-4 md:col-span-2 md:w-2/3">
+                    <Pill className="w-8 h-8 text-teal-600" />
+                    <p className="text-sm md:text-base font-semibold text-gray-800">
+                      Release growth factors slowly to support healing
+                    </p>
+                  </div>
+                </div>
+
+                {/* Footer Text */}
+                <p className="text-sm md:text-base text-gray-700 mt-10 max-w-4xl leading-relaxed">
+                  Hydrogels, collagen scaffolds, and biodegradable polymers are
+                  already showing success in applications like bone regeneration
+                  and cartilage repair. They’re essentially “nurseries” for new
+                  tissue to grow.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section className="py-8 sm:py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-white px-6 py-12 flex justify-center">
+              <div className="max-w-5xl w-full">
+                {/* Heading */}
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+                  Strategy #5: Combining Stem Cell Therapy with Other Treatments
+                </h2>
+
+                {/* Description */}
+                <p className="text-base md:text-lg text-gray-700 max-w-4xl leading-relaxed mb-6">
+                  Why stop at stem cells? Pairing stem cell therapy with other
+                  medical treatments often leads to synergistic results.
+                </p>
+
+                <p className="text-sm md:text-base font-medium text-gray-800 mb-6">
+                  Some combinations include:
+                </p>
+
+                {/* Card Grid */}
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* Card 1 */}
+                  <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-start gap-4">
+                    <Dumbbell className="w-8 h-8 text-teal-600 mt-1" />
+                    <div>
+                      <p className="text-sm md:text-base font-semibold text-gray-900 mb-1">
+                        Stem Cells + Physical Therapy
+                      </p>
+                      <p className="text-sm text-gray-700">
+                        Especially helpful in neurological and musculoskeletal
+                        conditions.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Card 2 */}
+                  <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-start gap-4">
+                    <Droplets className="w-8 h-8 text-teal-600 mt-1" />
+                    <div>
+                      <p className="text-sm md:text-base font-semibold text-gray-900 mb-1">
+                        Stem Cells + PRP (Platelet-Rich Plasma)
+                      </p>
+                      <p className="text-sm text-gray-700">
+                        PRP enhances healing signals and helps stem cells work
+                        more effectively.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Card 3 */}
+                  <div className="border-2 border-[#D4F1EE] bg-white rounded-xl shadow-sm p-6 flex items-start gap-4 md:col-span-2 md:w-2/3">
+                    <Users className="w-8 h-8 text-teal-600 mt-1" />
+                    <div>
+                      <p className="text-sm md:text-base font-semibold text-gray-900 mb-1">
+                        Stem Cells + Immune Modulation
+                      </p>
+                      <p className="text-sm text-gray-700">
+                        In autoimmune conditions, modulating the immune system
+                        allows stem cells to work without attack.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Footer Text */}
+                <p className="text-sm md:text-base text-gray-700 mt-10 max-w-4xl leading-relaxed">
+                  This integrated approach doesn’t just boost effectiveness—it
+                  personalizes treatment for better outcomes.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section className="py-8 sm:py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-white px-6 py-12 flex justify-center">
+              <div className="max-w-5xl w-full">
+                {/* Heading */}
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+                  Strategy #6: Personalized Stem Cell Therapy
+                </h2>
+
+                {/* Subheading */}
+                <p className="text-base md:text-lg text-gray-700 max-w-4xl leading-relaxed">
+                  Every person’s body is different. So why should treatments be
+                  one-size-fits-all?
+                </p>
+
+                {/* Lead-in Line */}
+                <p className="text-base md:text-lg font-medium text-gray-800 mt-4 mb-6">
+                  With advancements in precision medicine, we can now tailor
+                  stem cell therapy based on:
+                </p>
+
+                {/* Card Box */}
+                <div className="bg-white border-2 border-[#D4F1EE] rounded-xl shadow-sm px-6 py-6 md:px-10 md:py-8 space-y-6">
+                  {/* Row 1 */}
+                  <div className="flex items-start gap-4">
+                    <FileText className="w-6 h-6 text-teal-600 mt-1" />
+                    <p className="text-sm md:text-base font-semibold text-gray-900">
+                      The patient’s genetic profile.
+                    </p>
+                  </div>
+
+                  {/* Row 2 */}
+                  <div className="flex items-start gap-4">
+                    <Biohazard className="w-6 h-6 text-teal-600 mt-1" />
+                    <p className="text-sm md:text-base font-semibold text-gray-900">
+                      The exact nature and stage of the disease.
+                    </p>
+                  </div>
+
+                  {/* Row 3 */}
+                  <div className="flex items-start gap-4">
+                    <Network className="w-6 h-6 text-teal-600 mt-1" />
+                    <p className="text-sm md:text-base font-semibold text-gray-900">
+                      The optimal source and type of stem cell.
+                    </p>
+                  </div>
+
+                  {/* Row 4 */}
+                  <div className="flex items-start gap-4">
+                    <BrainCircuit className="w-6 h-6 text-teal-600 mt-1" />
+                    <p className="text-sm md:text-base font-semibold text-gray-900">
+                      Predictive biomarkers that guide therapy choices.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Final Note */}
+                <p className="text-sm md:text-base text-gray-700 mt-10 max-w-4xl leading-relaxed">
+                  This customized approach ensures that patients get the right
+                  cells, in the right dose, at the right time, maximizing
+                  therapeutic benefits while reducing risks.
+                </p>
+              </div>
             </div>
           </section>
 
           <section className="py-8 sm:py-12">
             <div className="bg-white px-6 md:px-20 py-10 text-gray-900 font-sans">
               {/* Heading */}
-              <h2 className="text-xl md:text-2xl font-bold mb-4">
-                Strategy #6: Personalized Stem Cell Therapy
-              </h2>
-
-              {/* Subheading */}
-              <p className="text-sm md:text-base text-gray-700 max-w-4xl leading-relaxed">
-                Every person’s body is different. So why should treatments be
-                one-size-fits-all?
-              </p>
-
-              {/* Lead-in Line */}
-              <p className="text-sm md:text-base font-medium text-gray-800 mt-4 mb-6">
-                With advancements in precision medicine, we can now tailor stem
-                cell therapy based on:
-              </p>
-
-              {/* Card Box */}
-              <div className="bg-white border-2 border-[#D4F1EE] rounded-xl shadow-sm px-6 py-6 md:px-10 md:py-8 space-y-6">
-                {/* Row 1 */}
-                <div className="flex items-start gap-4">
-                  <FileText className="w-6 h-6 text-teal-600 mt-1" />
-                  <p className="text-sm md:text-base font-semibold text-gray-900">
-                    The patient’s genetic profile.
-                  </p>
-                </div>
-
-                {/* Row 2 */}
-                <div className="flex items-start gap-4">
-                  <Biohazard className="w-6 h-6 text-teal-600 mt-1" />
-                  <p className="text-sm md:text-base font-semibold text-gray-900">
-                    The exact nature and stage of the disease.
-                  </p>
-                </div>
-
-                {/* Row 3 */}
-                <div className="flex items-start gap-4">
-                  <Network className="w-6 h-6 text-teal-600 mt-1" />
-                  <p className="text-sm md:text-base font-semibold text-gray-900">
-                    The optimal source and type of stem cell.
-                  </p>
-                </div>
-
-                {/* Row 4 */}
-                <div className="flex items-start gap-4">
-                  <BrainCircuit className="w-6 h-6 text-teal-600 mt-1" />
-                  <p className="text-sm md:text-base font-semibold text-gray-900">
-                    Predictive biomarkers that guide therapy choices.
-                  </p>
-                </div>
-              </div>
-
-              {/* Final Note */}
-              <p className="text-sm md:text-base text-gray-700 mt-10 max-w-4xl leading-relaxed">
-                This customized approach ensures that patients get the right
-                cells, in the right dose, at the right time, maximizing
-                therapeutic benefits while reducing risks.
-              </p>
-            </div>
-          </section>
-
-          <section className="py-8 sm:py-12">
-            <div className="bg-white px-6 md:px-20 py-10 text-gray-900 font-sans">
-              {/* Heading */}
-              <h2 className="text-xl md:text-2xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
                 Real-Life Applications: Where We See the Boost in Action
               </h2>
 
               {/* Subtext */}
-              <p className="text-sm md:text-base text-gray-700 max-w-4xl leading-relaxed mb-8">
+              <p className="text-base md:text-lg text-gray-700 max-w-4xl leading-relaxed mb-8">
                 The strategies to enhance stem cell therapy aren’t just lab
                 experiments—they’re being used in real-world treatments today.
                 Here are some examples:
@@ -529,7 +539,7 @@ export default function BoostingPage() {
               {/* 2x2 Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Card 1 - Neurological Disorders */}
-                <div className="bg-white border border-[#D4F1EE] rounded-2xl shadow-sm overflow-hidden">
+                <div className="bg-white border border-[#D4F1EE] rounded-2xl shadow-lg overflow-hidden">
                   <div className="bg-[#D4F1EE] flex justify-center items-center py-6">
                     <Brain className="w-10 h-10 text-teal-700" />
                   </div>
@@ -546,7 +556,7 @@ export default function BoostingPage() {
                 </div>
 
                 {/* Card 2 - Cardiovascular Disease */}
-                <div className="bg-white border border-[#D4F1EE] rounded-2xl shadow-sm overflow-hidden">
+                <div className="bg-white border border-[#D4F1EE] rounded-2xl shadow-lg overflow-hidden">
                   <div className="bg-[#D4F1EE] flex justify-center items-center py-6">
                     <HeartPulse className="w-10 h-10 text-teal-700" />
                   </div>
@@ -562,7 +572,7 @@ export default function BoostingPage() {
                 </div>
 
                 {/* Card 3 - Orthopedic Healing */}
-                <div className="bg-white border border-[#D4F1EE] rounded-2xl shadow-sm overflow-hidden">
+                <div className="bg-white border border-[#D4F1EE] rounded-2xl shadow-lg overflow-hidden">
                   <div className="bg-[#D4F1EE] flex justify-center items-center py-6">
                     <Bone className="w-10 h-10 text-teal-700" />
                   </div>
@@ -579,7 +589,7 @@ export default function BoostingPage() {
                 </div>
 
                 {/* Card 4 - Diabetes */}
-                <div className="bg-white border border-[#D4F1EE] rounded-2xl shadow-sm overflow-hidden">
+                <div className="bg-white border border-[#D4F1EE] rounded-2xl shadow-lg overflow-hidden">
                   <div className="bg-[#D4F1EE] flex justify-center items-center py-6">
                     <Syringe className="w-10 h-10 text-teal-700" />
                   </div>
@@ -599,10 +609,10 @@ export default function BoostingPage() {
             <div className="bg-white px-6 md:px-20 py-10 text-gray-900 font-sans space-y-10">
               {/* Lifestyle and Environment */}
               <div className="border-2 border-[#C4F0EC] bg-white rounded-xl p-6 md:p-8 shadow-sm">
-                <h3 className="text-lg md:text-xl font-semibold text-[#1DA39D] mb-3">
+                <h3 className="text-xl md:text-2xl font-semibold text-[#1DA39D] mb-3">
                   The Role of Lifestyle and Environment
                 </h3>
-                <p className="text-sm md:text-base text-gray-800 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-800 leading-relaxed">
                   Interestingly, boosting stem cell therapy isn’t limited to the
                   clinic. Patients themselves play a vital role in success.
                   Lifestyle factors like nutrition, sleep, stress levels, and
@@ -616,16 +626,16 @@ export default function BoostingPage() {
 
               {/* Ethical and Safety Considerations */}
               <div className="border-2 border-[#C4F0EC] bg-white rounded-xl p-6 md:p-8 shadow-sm">
-                <h3 className="text-lg md:text-xl font-semibold text-[#1DA39D] mb-3">
+                <h3 className="text-xl md:text-2xl font-semibold text-[#1DA39D] mb-3">
                   Ethical and Safety Considerations
                 </h3>
-                <p className="text-sm md:text-base text-gray-800 leading-relaxed mb-2">
+                <p className="text-base md:text-lg text-gray-800 leading-relaxed mb-2">
                   As we explore ways to boost stem cell therapy, it’s crucial
                   not to lose sight of the ethics. Not all stem cell clinics
                   follow rigorous safety protocols, and patients must stay
                   informed.
                 </p>
-                <ul className="list-disc list-inside text-sm md:text-base text-gray-800 space-y-1">
+                <ul className="list-disc list-inside text-base md:text-lg text-gray-800 space-y-1">
                   <li>
                     Regulated therapies are essential for safety and results
                   </li>
@@ -642,10 +652,10 @@ export default function BoostingPage() {
             <div className="bg-white px-6 md:px-20 py-10 text-gray-900 font-sans space-y-10">
               {/* Section 1: Looking Ahead */}
               <div>
-                <h2 className="text-xl md:text-2xl font-bold mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
                   Looking Ahead: A World Transformed by Regenerative Medicine
                 </h2>
-                <p className="text-sm md:text-base text-gray-800 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-800 leading-relaxed">
                   Boosting stem cell therapy is not just a scientific
                   pursuit—it’s a humanitarian mission. It's about giving a child
                   with cerebral palsy the chance to walk, helping a grandmother
@@ -663,10 +673,10 @@ export default function BoostingPage() {
 
               {/* Section 2: Final Thoughts */}
               <div>
-                <h2 className="text-xl md:text-2xl font-bold mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
                   Final Thoughts: Hope in Every Cell
                 </h2>
-                <p className="text-sm md:text-base text-gray-800 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-800 leading-relaxed">
                   Stem cell therapy stands at the intersection of science and
                   miracle. But miracles take work—and that’s where boosting
                   strategies come in. Whether it’s through better cell

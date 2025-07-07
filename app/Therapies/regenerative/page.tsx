@@ -120,20 +120,20 @@ export default function RegenerativePage() {
               Condition Overview – Stem Cell - Regenerating Medicine
             </h2>
             <div className="prose max-w-none text-gray-700">
-              <p className="mb-3 sm:mb-4">
+              <p className="mb-3 sm:mb-4 text-base md:text-lg">
                 Stem cells are the body's natural repair system — capable of
                 transforming into specialized cells to heal and regenerate
                 damaged tissues. Regenerative medicine harnesses this power to
                 treat a wide range of conditions, from joint pain and nerve
                 damage to autoimmune disorders and chronic inflammation.
               </p>
-              <p className="mb-3 sm:mb-4">
+              <p className="mb-3 sm:mb-4 text-base md:text-lg">
                 At QA Stem Cell Centre, we combine advanced stem cell science
                 with personalized care to help patients experience faster
                 recovery, reduced pain, and improved quality of life — without
                 invasive surgery or long-term medication.
               </p>
-              <p>
+              <p className="text-base md:text-lg">
                 Explore how our therapies are shaping the future of healing.
               </p>
             </div>
@@ -331,18 +331,21 @@ export default function RegenerativePage() {
           </section>
 
           {/* Your Regenerative Journey Section */}
-          <section className="py-8 sm:py-12">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 md:py-16 lg:py-20 bg-white">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8 sm:mb-10 md:mb-12 lg:mb-16">
+          <section className="py-8 sm:py-12 bg-white">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
                 Your Regenerative Journey With Us
               </h1>
 
               <div className="relative">
-                {/* Progress line - horizontal on desktop, vertical on mobile */}
-                <div className="hidden md:block absolute h-1 bg-gradient-to-r from-teal-200 to-teal-200 top-1/2 left-8 right-8 -translate-y-1/2"></div>
-                <div className="md:hidden absolute w-1 bg-gradient-to-b from-teal-200 to-teal-200 left-1/2 top-8 bottom-8 -translate-x-1/2"></div>
+                {/* Horizontal progress line (desktop only) */}
+                <div className="hidden md:block absolute top-[42px] left-[7.5%] w-[85%] h-1 bg-teal-200 z-0"></div>
 
-                <div className="relative flex flex-col md:flex-row justify-between gap-8 sm:gap-10 md:gap-4 lg:gap-6">
+                {/* Vertical progress line (mobile only) */}
+                <div className="md:hidden absolute left-1/2 top-[60px] bottom-[60px] w-1 bg-teal-200 transform -translate-x-1/2 z-0"></div>
+
+                {/* Steps */}
+                <div className="flex flex-col md:flex-row justify-between items-center gap-12 md:gap-0 relative z-10">
                   {[
                     "Initial Consultation",
                     "Customized Treatment Plan",
@@ -352,39 +355,42 @@ export default function RegenerativePage() {
                   ].map((step, index) => (
                     <div
                       key={index}
-                      className="flex md:flex-col items-center md:items-start gap-4 md:gap-0 z-10"
+                      className="flex flex-col items-center text-center w-full md:w-auto"
                     >
-                      {/* Number circle with connecting line */}
-                      <div className="flex md:flex-col items-center">
-                        <div className="relative">
-                          {/* Connecting line for mobile */}
-                          <div className="md:hidden absolute w-4 h-1 bg-teal-200 -left-4 top-1/2 -translate-y-1/2"></div>
-                          {/* Number circle */}
-                          <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 flex-shrink-0 rounded-full bg-teal-500 flex items-center justify-center text-white text-lg sm:text-xl md:text-2xl font-bold">
-                            {index + 1}
-                          </div>
+                      {/* Circle + mobile connector arrow */}
+                      <div className="relative flex items-center md:flex-col">
+                        {/* Line before circle (mobile only) */}
+                        {index !== 0 && (
+                          <div className="md:hidden absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-full w-4 h-1 bg-teal-200"></div>
+                        )}
+
+                        {/* Circle */}
+                        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-teal-500 flex items-center justify-center text-white text-xl md:text-2xl font-bold">
+                          {index + 1}
                         </div>
 
-                        {/* Arrow for mobile */}
-                        <div className="md:hidden text-teal-500">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                        </div>
+                        {/* Mobile arrow */}
+                        {index !== 4 && (
+                          <div className="md:hidden text-teal-500 ml-2">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-5 w-5"
+                              viewBox="0 0 20 20"
+                              fill="currentColor"
+                            >
+                              <path
+                                fillRule="evenodd"
+                                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                clipRule="evenodd"
+                              />
+                            </svg>
+                          </div>
+                        )}
                       </div>
 
-                      {/* Step text */}
-                      <div className="md:mt-4 max-w-[180px] sm:max-w-[200px] md:max-w-none">
-                        <h3 className="text-sm sm:text-base md:text-lg font-semibold text-gray-800 text-center md:text-left">
+                      {/* Step Label */}
+                      <div className="mt-4 w-[90%] max-w-[220px] md:max-w-[180px]">
+                        <h3 className="text-sm sm:text-base md:text-lg font-semibold text-gray-800">
                           {step}
                         </h3>
                       </div>

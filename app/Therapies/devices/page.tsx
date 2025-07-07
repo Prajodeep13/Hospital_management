@@ -211,11 +211,11 @@ export default function RegenerativePage() {
                   key={therapy.id}
                   className="border border-teal-300 rounded-xl p-6 flex flex-col md:flex-row justify-between items-start gap-4 shadow-sm hover:shadow-md transition-shadow duration-300"
                 >
-                  <div className="flex-1">
+                  <div className="flex-1 ">
                     <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">
                       {therapy.id}. {therapy.title}
                     </h3>
-                    <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                    <p className="text-gray-700 text-sm md:text-base leading-relaxed ">
                       {therapy.description}
                     </p>
                   </div>
@@ -232,7 +232,7 @@ export default function RegenerativePage() {
               A Holistic Approach to Regeneration
             </h2>
             <div className="prose max-w-none text-gray-700">
-              <p className="mb-3 sm:mb-4">
+              <p className="mb-3 sm:mb-4 text-base md:text-lg">
                 Medical device therapies represent the perfect synergy between
                 technology and biology. They don't replace stem cell
                 treatments—they amplify them. Think of these devices as the

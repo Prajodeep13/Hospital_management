@@ -167,10 +167,10 @@ export default function RegenerativePage() {
             <div className="flex flex-col md:flex-row items-center gap-10">
               {/* Left Text Column */}
               <div className="flex-1">
-                <h2 className="text-xl md:text-2xl font-bold mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
                   What Are Stem Cell Delivery Methods?
                 </h2>
-                <p className="text-sm md:text-base text-gray-800 leading-relaxed mb-4">
+                <p className="text-base md:text-lg text-gray-800 leading-relaxed mb-4">
                   Stem cell therapy is more than just selecting the right type
                   of cells — the way these cells are delivered into the body
                   plays a vital role in the therapy’s success. At QA Stem Cell
@@ -178,7 +178,7 @@ export default function RegenerativePage() {
                   methods to suit each patient’s specific medical condition,
                   treatment goals, and overall health profile.
                 </p>
-                <p className="text-sm md:text-base text-gray-800 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-800 leading-relaxed">
                   Different conditions require different approaches. For
                   instance, a patient with a neurological disorder might benefit
                   from a spinal (intrathecal) injection to reach the central
@@ -410,7 +410,7 @@ export default function RegenerativePage() {
 
             {/* Full-width bottom paragraph */}
             <div className="mt-10">
-              <p className="text-gray-700 text-base leading-relaxed">
+              <p className="text-gray-700 text-base md:text-lg leading-relaxed">
                 Choosing the right stem cell delivery method is just as crucial
                 as the therapy itself. At QA Stem Cell Centre, our expert
                 medical team ensures each delivery is safe, targeted, and
@@ -422,7 +422,7 @@ export default function RegenerativePage() {
               </p>
             </div>
           </div>
-        </section> 
+        </section>
       </main>
     </div>
   );

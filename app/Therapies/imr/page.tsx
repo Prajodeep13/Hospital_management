@@ -128,7 +128,7 @@ export default function IMRPage() {
               Overview – IMR and Drug Therapies
             </h2>
             <div className="prose max-w-none text-gray-700">
-              <p className="mb-3 sm:mb-4">
+              <p className="mb-3 sm:mb-4 text-base md:text-lg">
                 At our center, we take a comprehensive, science-backed approach
                 to healing—integrating Immune Modulation & Reconstitution (IMR)
                 and advanced Drug Therapies to address chronic illnesses, immune
@@ -144,7 +144,7 @@ export default function IMRPage() {
                 IMR refers to a set of targeted therapeutic strategies designed
                 to:
               </h4>
-              <ul className="list-disc">
+              <ul className="list-disc text-base md:text-lg">
                 <li>
                   Modulate immune activity when it's causing harm (e.g.,
                   inflammation, autoimmunity)
@@ -162,10 +162,10 @@ export default function IMRPage() {
             <div className="bg-white min-h-screen px-4 py-8 flex justify-center">
               <div className="w-full max-w-4xl">
                 {/* Header */}
-                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
                   IMR - Illness Management & Recovery
-                </h1>
-                <p className="text-sm sm:text-base text-gray-700 mb-8 leading-relaxed">
+                </h2>
+                <p className="text-base md:text-lg text-gray-700 mb-8 leading-relaxed">
                   In the context of drug therapy, IMR, or Illness Management and
                   Recovery, is a psychosocial intervention designed to help
                   individuals with severe mental illness manage their illness
@@ -176,7 +176,7 @@ export default function IMRPage() {
                 </p>
 
                 {/* Card: Focus on Self-Management */}
-                <div className="border border-[#baf1ee] bg-[#f0fdfa] rounded-xl p-5 mb-5 shadow-sm">
+                <div className="border border-[#baf1ee] bg-[#f0fdfa] rounded-xl p-5 mb-5 shadow-md">
                   <h2 className="text-xl font-semibold text-[#17b0a3] mb-1">
                     Focus on Self-Management
                   </h2>
@@ -188,7 +188,7 @@ export default function IMRPage() {
                 </div>
 
                 {/* Card: Standardized Approach */}
-                <div className="border border-[#baf1ee] bg-[#f0fdfa] rounded-xl p-5 mb-5 shadow-sm">
+                <div className="border border-[#baf1ee] bg-[#f0fdfa] rounded-xl p-5 mb-5 shadow-md">
                   <h2 className="text-xl font-semibold text-[#17b0a3] mb-1">
                     Standardized Approach
                   </h2>
@@ -199,7 +199,7 @@ export default function IMRPage() {
                 </div>
 
                 {/* Card: Integration of Elements */}
-                <div className="border border-[#baf1ee] bg-[#f0fdfa] rounded-xl p-5 mb-5 shadow-sm">
+                <div className="border border-[#baf1ee] bg-[#f0fdfa] rounded-xl p-5 mb-5 shadow-md">
                   <h2 className="text-xl font-semibold text-[#17b0a3] mb-1">
                     Integration of Elements
                   </h2>
@@ -225,7 +225,7 @@ export default function IMRPage() {
                 </div>
 
                 {/* Card: Evidence-Based */}
-                <div className="border border-[#baf1ee] bg-[#f0fdfa] rounded-xl p-5 mb-5 shadow-sm">
+                <div className="border border-[#baf1ee] bg-[#f0fdfa] rounded-xl p-5 mb-5 shadow-md">
                   <h2 className="text-xl font-semibold text-[#17b0a3] mb-1">
                     Evidence-Based
                   </h2>
@@ -248,7 +248,7 @@ export default function IMRPage() {
                 {/* Grid for cards */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                   {/* Card 1 */}
-                  <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-5 flex items-start space-x-4 shadow-sm">
+                  <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-2xl p-5 flex items-start space-x-4 shadow-sm">
                     <Activity className="text-[#00b99e] w-7 h-7 mt-1" />
                     <p className="text-gray-900 font-medium text-base sm:text-lg">
                       Reduction in systemic inflammation
@@ -256,7 +256,7 @@ export default function IMRPage() {
                   </div>
 
                   {/* Card 2 */}
-                  <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-5 flex items-start space-x-4 shadow-sm">
+                  <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-2xl p-5 flex items-start space-x-4 shadow-sm">
                     <Brain className="text-[#00b99e] w-7 h-7 mt-1" />
                     <p className="text-gray-900 font-medium text-base sm:text-lg">
                       Fewer disease flare-ups and improved symptom control
@@ -264,7 +264,7 @@ export default function IMRPage() {
                   </div>
 
                   {/* Card 3 */}
-                  <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-5 flex items-start space-x-4 shadow-sm">
+                  <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-2xl p-5 flex items-start space-x-4 shadow-sm">
                     <HeartPulse className="text-[#00b99e] w-7 h-7 mt-1" />
                     <p className="text-gray-900 font-medium text-base sm:text-lg">
                       Enhanced response to regenerative treatments
@@ -272,7 +272,7 @@ export default function IMRPage() {
                   </div>
 
                   {/* Card 4 */}
-                  <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-5 flex items-start space-x-4 shadow-sm">
+                  <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-2xl p-5 flex items-start space-x-4 shadow-sm">
                     <ShieldCheck className="text-[#00b99e] w-7 h-7 mt-1" />
                     <p className="text-gray-900 font-medium text-base sm:text-lg">
                       Improved energy, tissue repair, and immune resilience
@@ -281,7 +281,7 @@ export default function IMRPage() {
                 </div>
 
                 {/* Paragraph below cards */}
-                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                   IMR (Intracellular Matrix Restoration) therapy, when combined
                   with stem cell therapy, offers several key benefits including
                   enhanced stem cell effectiveness, improved metabolism, and
@@ -296,10 +296,10 @@ export default function IMRPage() {
           <section className="bg-white px-4 py-10 md:py-14">
             <div className="max-w-6xl mx-auto">
               {/* Section Heading */}
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Advanced Drug Therapies
               </h2>
-              <p className="text-sm sm:text-base text-gray-700 mb-6 max-w-4xl leading-relaxed">
+              <p className="text-base sm:text-lg text-gray-700 mb-6 max-w-4xl leading-relaxed">
                 Our clinic integrates modern pharmacology with precision
                 medicine to create fully individualized treatment protocols.
                 Drug therapies are selected to address the root causes of
@@ -308,16 +308,16 @@ export default function IMRPage() {
               </p>
 
               {/* What We Offer */}
-              <h3 className="text-lg font-semibold text-gray-900 mb-5">
+              <h3 className="text-2xl font-bold text-gray-900 mb-10">
                 What We Offer
               </h3>
 
               {/* Grid of cards */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-6">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 mb-12">
                 {/* Card 1 */}
                 <div className="flex flex-col items-center text-center">
-                  <div className="bg-[#e0f7f4] p-4 rounded-xl mb-2">
-                    <ShieldCheck className="text-[#18b0a4] w-8 h-8" />
+                  <div className="bg-[#e0f7f4] p-8 rounded-xl mb-2">
+                    <ShieldCheck className="text-[#18b0a4] w-8 h-8 " />
                   </div>
                   <p className="font-semibold text-sm sm:text-base">
                     Immunomodulators
@@ -326,7 +326,7 @@ export default function IMRPage() {
 
                 {/* Card 2 */}
                 <div className="flex flex-col items-center text-center">
-                  <div className="bg-[#e0f7f4] p-4 rounded-xl mb-2">
+                  <div className="bg-[#e0f7f4] p-8 rounded-xl mb-2">
                     <Pill className="text-[#18b0a4] w-8 h-8" />
                   </div>
                   <p className="font-semibold text-sm sm:text-base">
@@ -338,7 +338,7 @@ export default function IMRPage() {
 
                 {/* Card 3 */}
                 <div className="flex flex-col items-center text-center">
-                  <div className="bg-[#e0f7f4] p-4 rounded-xl mb-2">
+                  <div className="bg-[#e0f7f4] p-8 rounded-xl mb-2">
                     <Brain className="text-[#18b0a4] w-8 h-8" />
                   </div>
                   <p className="font-semibold text-sm sm:text-base">
@@ -350,7 +350,7 @@ export default function IMRPage() {
 
                 {/* Card 4 */}
                 <div className="flex flex-col items-center text-center">
-                  <div className="bg-[#e0f7f4] p-4 rounded-xl mb-2">
+                  <div className="bg-[#e0f7f4] p-8 rounded-xl mb-2">
                     <Target className="text-[#18b0a4] w-8 h-8" />
                   </div>
                   <p className="font-semibold text-sm sm:text-base">
@@ -362,7 +362,7 @@ export default function IMRPage() {
 
                 {/* Card 5 */}
                 <div className="flex flex-col items-center text-center">
-                  <div className="bg-[#e0f7f4] p-4 rounded-xl mb-2">
+                  <div className="bg-[#e0f7f4] p-8 rounded-xl mb-2">
                     <Hospital className="text-[#18b0a4] w-8 h-8" />
                   </div>
                   <p className="font-semibold text-sm sm:text-base">
@@ -405,26 +405,26 @@ export default function IMRPage() {
               <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1">
                 Personalized Medicine in Action
               </h2>
-              <p className="text-sm sm:text-base text-gray-700 mb-6">
+              <p className="text-base md:text-lg text-gray-700 mb-6">
                 All medications are selected based on detailed diagnostics,
                 including
               </p>
 
               {/* Diagnostic Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
-                <div className="bg-[#e0f7f4] border border-[#c7f0e9] rounded-xl p-5 text-center shadow-sm">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-20">
+                <div className="bg-[#e0f7f4] border border-[#c7f0e9] rounded-2xl p-5 text-center shadow-md">
                   <FileText className="mx-auto text-[#18b0a4] w-8 h-8 mb-3" />
                   <p className="text-[#18b0a4] font-semibold text-sm sm:text-base">
                     Immune profiling
                   </p>
                 </div>
-                <div className="bg-[#e0f7f4] border border-[#c7f0e9] rounded-xl p-5 text-center shadow-sm">
+                <div className="bg-[#e0f7f4] border border-[#c7f0e9] rounded-2xl p-5 text-center shadow-md">
                   <BarChart2 className="mx-auto text-[#18b0a4] w-8 h-8 mb-3" />
                   <p className="text-[#18b0a4] font-semibold text-sm sm:text-base">
                     Inflammatory markers
                   </p>
                 </div>
-                <div className="bg-[#e0f7f4] border border-[#c7f0e9] rounded-xl p-5 text-center shadow-sm">
+                <div className="bg-[#e0f7f4] border border-[#c7f0e9] rounded-2xl p-5 text-center shadow-md">
                   <Dna className="mx-auto text-[#18b0a4] w-8 h-8 mb-3" />
                   <p className="text-[#18b0a4] font-semibold text-sm sm:text-base">
                     Genetic and epigenetic
@@ -439,12 +439,12 @@ export default function IMRPage() {
                 Advanced Drug Therapies
               </h2>
 
-              <div className="bg-white border border-[#c8f0e3] rounded-xl p-5 shadow-sm">
-                <p className="text-sm sm:text-base font-semibold text-gray-900 mb-3">
+              <div className="bg-white border border-[#67efc4] rounded-2xl p-5 shadow-md">
+                <p className="text-base md:text-lg font-semibold text-gray-900 mb-3">
                   At our center, IMR and drug therapies they are part of a
                   larger, holistic care model that includes
                 </p>
-                <ul className="list-disc pl-5 text-sm sm:text-base text-gray-800 mb-4 space-y-2">
+                <ul className="list-disc pl-5 text-base md:text-lg text-gray-800 mb-4 space-y-2">
                   <li>
                     Regenerative medicine (e.g., stem cell therapy,
                     platelet-rich plasma)
@@ -453,7 +453,7 @@ export default function IMRPage() {
                   <li>Physiotherapy and neuro-rehabilitation</li>
                   <li>Ongoing patient education and wellness tracking</li>
                 </ul>
-                <p className="text-sm sm:text-base text-gray-700">
+                <p className="text-base md:text-lg text-gray-700">
                   We believe that true healing requires synergy—between
                   therapies, between body systems, and between patient and
                   doctor
@@ -463,55 +463,23 @@ export default function IMRPage() {
           </section>
 
           <section className="bg-white px-4 py-10 md:py-14">
-            <div className="max-w-4xl mx-auto">
-              {/* Advanced Drug Therapies */}
-              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
-                Advanced Drug Therapies
-              </h2>
-
-              <div className="bg-white border border-[#baf1ee] rounded-xl p-5 shadow-sm mb-10">
-                <p className="text-sm sm:text-base font-semibold text-gray-900 mb-3">
-                  At our center, IMR and drug therapies they are part of a
-                  larger, holistic care model that includes
-                </p>
-                <ul className="list-disc pl-5 text-sm sm:text-base text-gray-800 mb-4 space-y-2">
-                  <li>
-                    Regenerative medicine (e.g., stem cell therapy,
-                    platelet-rich plasma)
-                  </li>
-                  <li>Lifestyle medicine and nutritional support</li>
-                  <li>Physiotherapy and neuro-rehabilitation</li>
-                  <li>Ongoing patient education and wellness tracking</li>
-                </ul>
-                <p className="text-sm sm:text-base text-gray-700">
-                  We believe that true healing requires synergy—between
-                  therapies, between body systems, and between patient and
-                  doctor
-                </p>
-              </div>
-
-              {/* Why Choose Us */}
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
-                Why Choose Us?
-              </h3>
-              <ul className="text-sm sm:text-base text-gray-800 space-y-2">
-                <li>
-                  ✔️ Evidence-based therapies grounded in immunology and
-                  regenerative science
-                </li>
-                <li>
-                  ✔️ Advanced diagnostics for truly personalized treatment
-                </li>
-                <li>
-                  ✔️ Multidisciplinary medical team (immunologists, regenerative
-                  specialists, neurologists)
-                </li>
-                <li>
-                  ✔️ Safe, ethical, and internationally compliant protocols
-                </li>
-                <li>✔️ Patient-centered care from start to finish</li>
-              </ul>
-            </div>
+            {/* Why Choose Us */}
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+              Why Choose Us?
+            </h2>
+            <ul className="text-base md:text-lg  text-gray-800 space-y-2">
+              <li>
+                ✔️ Evidence-based therapies grounded in immunology and
+                regenerative science
+              </li>
+              <li>✔️ Advanced diagnostics for truly personalized treatment</li>
+              <li>
+                ✔️ Multidisciplinary medical team (immunologists, regenerative
+                specialists, neurologists)
+              </li>
+              <li>✔️ Safe, ethical, and internationally compliant protocols</li>
+              <li>✔️ Patient-centered care from start to finish</li>
+            </ul>
           </section>
 
           <section className="bg-white px-4 py-10 md:py-14">
@@ -523,7 +491,7 @@ export default function IMRPage() {
               {/* 2x2 Grid */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
                 {/* Card 1 */}
-                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-4 flex items-start space-x-4 shadow-sm">
+                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-2xl p-8 flex items-start space-x-4 shadow-md">
                   <FileText className="text-[#00b99e] w-6 h-6 mt-1" />
                   <p className="text-gray-900 font-medium text-sm sm:text-base">
                     Use of ethically sourced, GMP-grade stem cells
@@ -531,7 +499,7 @@ export default function IMRPage() {
                 </div>
 
                 {/* Card 2 */}
-                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-4 flex items-start space-x-4 shadow-sm">
+                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-2xl p-8 flex items-start space-x-4 shadow-md">
                   <FlaskConical className="text-[#00b99e] w-6 h-6 mt-1" />
                   <p className="text-gray-900 font-medium text-sm sm:text-base">
                     Treatment conducted in sterile, accredited labs
@@ -539,7 +507,7 @@ export default function IMRPage() {
                 </div>
 
                 {/* Card 3 */}
-                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-4 flex items-start space-x-4 shadow-sm">
+                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-8 flex items-start space-x-4 shadow-md">
                   <FileCheck2 className="text-[#00b99e] w-6 h-6 mt-1" />
                   <p className="text-gray-900 font-medium text-sm sm:text-base">
                     Compliance with national and international regulations
@@ -547,7 +515,7 @@ export default function IMRPage() {
                 </div>
 
                 {/* Card 4 */}
-                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-4 flex items-start space-x-4 shadow-sm">
+                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-8 flex items-start space-x-4 shadow-md">
                   <Stethoscope className="text-[#00b99e] w-6 h-6 mt-1" />
                   <p className="text-gray-900 font-medium text-sm sm:text-base">
                     Pre-treatment screening and diagnostic evaluation
@@ -557,7 +525,7 @@ export default function IMRPage() {
 
               {/* Centered Bottom Card */}
               <div className="flex justify-center">
-                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-4 flex items-start space-x-4 shadow-sm w-full sm:w-[80%]">
+                <div className="bg-[#f0fdfa] border border-[#c6f2ec] rounded-xl p-8 flex items-start space-x-4 shadow-md w-full sm:w-[80%]">
                   <UserCheck className="text-[#00b99e] w-6 h-6 mt-1" />
                   <p className="text-gray-900 font-medium text-sm sm:text-base">
                     Ongoing patient monitoring and follow-up care
